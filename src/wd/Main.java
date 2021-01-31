@@ -22,12 +22,12 @@ public class Main {
                 manager.build += story.current_situation.dbuild;
                 manager.mana += story.current_situation.dmana;
                 manager.intelligence += story.current_situation.dintelligence;
-
                 System.out.println("=====\nЛовкость:" + manager.dexterity + "\tСила:"
                         + manager.force + "\tТелосложение:" + manager.build + "\tМана:" + manager.mana + "\tИнтеллект:" + manager.intelligence + "\n=====");
                 System.out.println("============="
                         + story.current_situation.subject + "==============");
                 System.out.println(story.current_situation.text);
+
                 if (story.isEnd()) {
                     System.out
                         .println("________________НА ЭТОМ ПОКА ВСЁ, НО ВСЁ ДОРАБОТУЮ ДО ВЫХОДНЫХ И ИЗМЕНЮ СВОЙ ОТВЕТ______________________");
